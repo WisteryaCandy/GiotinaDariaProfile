@@ -1,0 +1,3768 @@
+
+
+@media screen and (min-width: 1026px){
+
+body {    
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+ }
+ .content {
+    flex: 1; /* Grow to fill the available space */
+}
+  .header {
+
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -80%;
+    color: #463F3A;
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+.navigare{
+ position:fixed;
+ background-color: #F4F3EE;
+ width: 200%;
+ height: 160px;
+ top: 0%;
+ z-index: 2;
+}  
+.myicon{
+    position: fixed;
+    font-size: 24px;
+    width: 7vh; /* Set a fixed width */
+    height: 7vh; /* Set a fixed height */
+    line-height: 50px; /* Ensure the text is centered vertically */
+    text-align: center; /* Ensure the text is centered horizontally */
+    border-radius: 50%; /* Make it round */
+    top: 7%;
+    left: 5%;
+}
+.myname{
+
+    position: fixed;
+    top: 8%;
+    left: 11%;
+    font-family: 'Magra',sans-serif;
+    font-weight: bold;
+    color: #463F3A;
+
+}
+.personal{
+    position: fixed;
+    top: 10.5%;
+    left: 11%;
+    font-family: 'Magra',sans-serif;
+    color: #8A817C;
+}
+.nav-links {
+    list-style: none;
+    position: fixed;
+    display: flex;
+    
+    justify-content: center; /* Center the nav-links horizontally */
+    font-size: 25px;
+    font-family: 'Magra', sans-serif;
+    width: 100%;
+    top:5%;
+    left: -2%;
+    text-decoration: none; 
+}
+.nav-links li {
+    
+    margin-right: 40px;
+}
+.link-aboutme1 {
+    color: #463F3A; 
+    text-decoration: none; 
+    padding: 0 20px;
+}
+
+.link-aboutme1:hover, 
+.link-aboutme1:focus { 
+    color: #845988; 
+}
+.link-academics1 {
+    color: #463F3A;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.link-academics1:hover, 
+.link-academics1:focus { 
+    color: #845988;
+
+}
+
+.link-projects1 {
+    color: #463F3A; 
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.link-projects1:hover, 
+.link-projects1:focus { 
+    color: #845988; 
+
+}
+.link-Contact1 {
+    color: #463F3A; 
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.link-Contact1:hover, 
+.link-Contact1:focus { 
+    color: #845988; 
+
+}
+.lets_talk_border{
+    width: 19vh;
+    height: 5%;
+    position: fixed;
+    border-radius: 20px; /* Make it a circle */
+    border: 3px solid #845988; /* Set border color */
+    right: 5%;
+    top: 6%;
+    text-decoration: none;
+}
+.lets_talk_text{
+    position: relative;
+    font-size: 27px;
+    width: 1000px;
+    height: 35px; 
+    top: 0%;
+    left: 4%;
+    font-family: 'Magra', sans-serif;
+    color: #845988;
+}
+.sendamessage{
+    width: 35px;
+    height: 35px; 
+    position: relative;
+    right:-1%;
+    top: 15%;
+}
+
+
+/* body */
+/* frame 1 introduction*/
+
+.background_block1{
+    
+    position: absolute;
+    background-color: #E6DAE7;
+    width: 50%;
+    height: 600px;
+    top: 35%;
+    right: 0;
+  
+}
+.Hello_line{
+
+    position: absolute;
+    width: 50px;
+    height: 7px;
+    background-color: #845988;
+    border-radius: 20px;
+    right: 73%;
+    top: 30%;
+  
+}
+.Hello{
+    position: absolute;
+    color: #845988;
+    font-family:'Magra', sans-serif;
+    font-size: 45px;
+    right: -120px;
+    top: -26px;
+
+}
+.paragraph1_frame1{
+    position: absolute;
+    color: #463F3A;
+    font-family: 'Magra', sans-serif;
+    font-weight:bold;
+    top: 30%;
+    font-size: 50px;
+    right: -11%;
+    width: 80%;
+}
+.paragraph2_frame1{
+    position: relative;
+    top: 50%;
+    width: 60%;
+    right: -31%;
+    font-size: 20px;
+    font-family: 'Magra', sans-serif;
+    color: #463F3A;
+}
+.effect.effect-2 {
+    transition: all 0.2s linear 0s;
+    position: relative; /* Add this line */
+  }
+  
+  .effect.effect-2:before {
+    content: "\f0e0"; /* Unicode for the envelope icon */
+    font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    background-color: #322439;
+    transition: all 0.2s linear 0s;
+  }
+  
+  
+  /* Define the hover effect */
+  .effect.effect-2:hover {
+    text-indent: -20px;
+  }
+  
+  /* Define the hover effect for the icon */
+  .effect.effect-2:hover:before {
+    opacity: 1;
+    text-indent: 0px;
+    border-radius: 15px;
+  }
+
+  .effect.effect-3 {
+    transition: all 0.2s linear 0s;
+    position: relative; /* Add this line */
+  }
+  
+  .effect.effect-3:before {
+    content: "\f03e"; /* Unicode for the envelope icon */
+    font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    background-color: #F4F3EE;
+    transition: all 0.2s linear 0s;
+  }
+  
+  
+  /* Define the hover effect */
+  .effect.effect-3:hover {
+    text-indent: -20px;
+  }
+  
+  /* Define the hover effect for the icon */
+  .effect.effect-3:hover:before {
+    opacity: 1;
+    text-indent: 0px;
+    border-radius: 15px;
+  }
+
+/*Buttons for getting cv and scrolling to the button for contact*/
+.frame1_button1and2 {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    position: relative;
+    top: 55%;
+    right: -33%;
+}
+
+.button1,
+.button2 {
+    width: 140px;
+    height: 55px;
+    border-radius: 15px;
+    font-family: 'Magra', sans-serif;
+    font-size: 20px;
+    color: #F4F3EE;
+    text-align: center; /* Center text horizontally */
+    line-height: 55px; /* Center text vertically */
+    color: inherit; /* Use the original color */
+    text-decoration: none;
+}
+
+.button1 {
+    background-color: #845988;
+    color: #F0E1DD;
+}
+
+.button2 {
+    width: calc(140px - 4px); 
+    height: calc(55px - 4px);
+    border: 2px solid #845988;
+    color: #845988;
+
+
+}
+
+
+
+.mesittindown{
+    position: absolute;
+    top: -25%;
+    width: 600px;
+    right: 65%;
+
+}
+/*Buttons for opening applications*/
+.Apps_buttons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute; /* Position the buttons absolutely */
+    top: 87%; /* Adjust the top position as needed */
+
+    
+}
+:root {
+    --Github-color: #845988;
+    --Github-hover: #845988;
+
+}
+.Github:hover,
+.Github:focus,
+.Insta:hover,
+.Insta:focus,
+.Linkedin:hover,
+.Linkedin:focus,
+.Facebook:hover,
+.Facebook:focus{
+    box-shadow: 0.5em 0.5em 1em -0.2em var(--Github-hover);
+    transform: translateY(-0.25em);
+    border-color: var(--Github-hover);
+    color: var(--Github-hover);
+
+}
+
+.Facebook,
+.Linkedin,
+.Insta,
+.Github {
+    width: 70px;
+    height: 60px;
+    border-radius: 15px;
+    font-family: 'Magra', sans-serif;
+    font-size: 20px;
+    color: #F4F3EE;
+    text-align: center; /* Center text horizontally */
+    line-height: 55px; /* Center text vertically */
+    border-radius: 20%;
+}
+.Apps_buttons {
+    width: 50%; /* Adjust the width for smaller screens */
+    left: -55%; /* Position the buttons closer to the center */
+    transform: translateX(-50%); /* Center the buttons horizontally */
+}
+.GreyLine1{
+    position: absolute;
+    background-color:#8A817C;
+    width: 60%;
+    height: 2px;
+    border-radius: 10px;
+    top: 115%;
+    left: 20%;
+}
+
+
+/*Frame 2 About me */
+
+.About_Me{
+  position: absolute;
+  font-size: 300%;
+  font-family: 'Magra', sans-serif;
+  font-weight: bold;
+  color:#463F3A ;
+  top: 125%;
+  left: 10.4%;
+}
+/* Squares with introduction and my photo*/
+.Purple_Square1 {
+    position: absolute;
+    background-color: #E6DAE7;
+    width: 22%;
+    height: 30%;
+    top: 150%;
+    left: 10%;
+    border-radius: 3%;
+}
+
+.Purple_Square2 {
+    position: absolute;
+    background-color: #E6DAE7;
+    width: 80%;
+    height: 80%;
+    top: 50%; /* Adjusted to 50% */
+    left: 100%; /* Adjusted to 50% */
+    transform: translate(-50%, -50%); /* Centering horizontally and vertically */
+    border-radius: 4%;
+    border: 7px solid #F4F3EE;
+}
+
+.My_photo2 {
+    position: absolute;
+    width: 180px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.myname2{
+    position: relative;
+    top: 20%;
+    font-family: 'Magra', sans-serif;
+    font-weight: bold;
+    color:#463F3A ;
+    font-size: 150%;
+    left: 10%;
+    width: 50%;
+}
+.myname2_underparagraph{
+    position: relative;
+    font-family: 'Magra', sans-serif;
+    width: 40%;
+    font-size: 100%;
+    top: 13%;
+    left: 10.5%;
+}
+
+/* Scrollable paragraph with keyword button*/
+
+
+.scrollable-container {
+    position: absolute;
+    width: 47%; /* Adjust width and add scrollbar width */
+    max-height: 280px; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    top: 150%; /* Adjust this value to move the text higher relative to viewport height */
+    right:2%;
+}
+
+.scrollable-paragraph {
+    width: 90%; /* Width of individual paragraphs */
+    font-family: 'Magra', sans-serif;
+    color: #000000;
+    font-size: 110%;
+    margin: 0;
+    padding: 10px;
+}
+
+.highlighted {
+    background-color: #E6DAE7;
+    border-radius: 10px;
+}
+.highlightButton {
+    font-family: 'Magra', sans-serif;
+    position: absolute;
+    top: 140%; /* Keep the vertical position */
+    right: 37%; /* Adjust the horizontal position */
+    width: 12%;
+    height: 40px;
+    font-size: 20px;
+    background-color: #845988;
+    color: #F4F3EE;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px; /* Center text vertically */
+    opacity: 1;
+    outline: 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+
+.highlightButton:hover::before {
+    opacity: 0;
+    transform: translateY(50%) rotateX(90deg);
+  }
+  
+
+  .highlightButton:hover::after {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+  }
+.highlightButton::after,
+.highlightButton::before {
+  top: 0;
+  left: 0;
+  display: block;
+  text-transform: uppercase;
+  background: transparent;
+  line-height: 40px;
+  position: absolute;
+  content: attr(data-back);
+  transform: translateY(-50%) rotateX(90deg);
+  transition: all 0.5s ease;
+}
+
+.highlightButton::after {
+  border: 3px solid #845988;
+  background: #F4F3EE;
+  color: #845988;
+  border-radius: 20px;
+  opacity: 0; /* Initially hidden */
+  width: 97%;
+  height: 91%;
+}
+
+.highlightButton.flipped::before {
+  opacity: 0; /* Hide front when flipped */
+}
+
+.highlightButton.flipped::after {
+  opacity: 1; /* Show back when flipped */
+  transform: translateY(0) rotateX(0); /* Ensure back is visible when flipped */
+}
+
+
+
+.paragraph8_frame1{
+    position: absolute;
+    top: 196%;
+    color: #8A817C;
+    font-family: 'Magra', sans-serif;
+    font-size: 120%;
+    text-align: center;
+    left: 0%;
+    width: 100%;
+}
+
+
+/*Volunteering icons*/
+.Volunteering_icons{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 5%;
+    top:220%;
+
+}
+.button_scouts {
+    position: relative;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border: none;
+    background: url('/webportofolio/scouts.png') no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.button_acces {
+    position: relative;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border: none;
+    background: url('/webportofolio/275987697_1228260911268067_823808366275849239_n.jpg') no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.button_shakespeare {
+    position: relative;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border: none;
+    background: url('/webportofolio/shakespar.png') no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.scouts {
+    left: 17%;
+}
+.acces_oltenia{
+    left: 35%;
+}
+.Shakespeare{
+    left: 52%;
+}
+
+.moreinfo_Scouts,
+.moreinfo_Acces_Oltenia,
+.moreinfo_Shakespeare {
+    display: none;
+    position: absolute;
+    background-color: #F0E1DD;
+    width: 350px;
+    height: 450px;
+    top: -40%;
+    border-radius: 5%;
+    font-family: 'Magra', sans-serif;
+    font-size: 90%;
+    border: 20px solid #F0E1DD; 
+    box-sizing: border-box; 
+
+}
+.moreinfo_Scouts{
+    left: 10.5%;
+}
+.moreinfo_Acces_Oltenia {
+    margin-left: 35%;
+}
+.moreinfo_Shakespeare {
+    left: 58.5%;
+}
+
+.visible1,
+.visible2,
+.visible3 {
+    display: block; /* or display: flex; depending on your layout */
+}
+.GreyLine2{
+    position: absolute;
+    background-color:#8A817C;
+    width: 60%;
+    height: 2px;
+    border-radius: 10px;
+    top: 265%;
+    left: 20%;
+}
+
+
+/*Frame 3*/
+.Imagine_movbg {
+    position: absolute; /* Change position to fixed */
+    top: 280%; /* Adjust the top position */
+    left: 0%;
+    width: 100%; /* Adjust width as needed */
+    height: 800px;
+    background: url('/webportofolio/815EaMGGxQL.png') no-repeat center;
+    background-size: cover; /* Adjust background size as needed */
+}
+
+.Title1{
+   font-family: 'Magra', sans-serif;
+   position: relative;
+   background-color: #F0E1DD;
+   width: 200px;
+   height: 75px;
+   border-radius: 12px;
+   border: 4px solid #F4F3EE;
+   text-align: center;
+   line-height: 75px; 
+   font-size: 30px;
+   -webkit-text-stroke: 1.3px #463F3A;
+   color: #F4F3EE;
+   text-shadow: 3px 2px 3px #463F3A;
+   transform: translateX(-50%); 
+
+   top:5%;
+   left: 50%;
+
+}
+
+.Title2 {
+
+        font-family: 'Magra', sans-serif;
+        position: relative;
+        color: #463F3A;
+        font-size: 60px;
+        font-weight: bold;
+        top: 9%;
+        left: 52%;
+        -webkit-text-stroke: 1px #F4F3EE;
+        width: 900px;
+        transform: translateX(-52%); 
+        text-align: center;
+    
+ }
+.paragraph1_frame3 {
+    width: 900px;
+    font-family: 'Magra', sans-serif;
+    position: relative;
+    color: #000000;
+    font-size: 20px;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Offset by -50% of its own width */
+    text-align: center;
+    top: 9%;
+}
+:root {
+    --Border1-color: #F4F3EE;
+    --Border1-hover: #5A3F5C;
+    --Border2-color: #F4F3EE;
+    --Border2-hover: #5A3F5C;
+    --Border3-color: #F4F3EE;
+    --Border3-hover: #5A3F5C;
+}
+.Border1{
+    position: relative;
+    color: var(--Border1-color);
+    border-radius: 20px;
+    width: 22%;
+    height: 30%;
+    top: 25%;
+    left: 10%;
+    border: 5px solid var(--Border1-color);
+    color: var(--Border1-color);
+    transition: 0.25s;
+}
+
+.Border1:hover,
+.Border1:focus,
+.Border2:hover,
+.Border2:focus,
+.Border3:hover,
+.Border3:focus{
+    box-shadow: 0 1em 1em -0.2em var(--Border1-hover);
+    transform: translateY(-0.25em);
+    border-color: var(--Border1-hover);
+    color: var(--Border1-hover);
+
+}
+.Border2{
+    position: relative;
+    color: var(--Border2-color);
+    border-radius: 20px;
+    width: 22%;
+    height: 30%;
+    top:-6.2%;
+    left: 40%;
+    border: 5px solid var(--Border2-color);
+    color: var(--Border2-color);
+    transition: 0.25s;
+}
+
+
+.Border3{
+    position: relative;
+    color: var(--Border3-color);
+    border-radius: 20px;
+    width: 22%;
+    height: 30%;
+    top: -37.3%;
+    left: 70%;
+    border: 5px solid var(--Border3-color);
+    color: var(--Border3-color);
+    transition: 0.25s;
+}
+.Title3,
+.Title4,
+.Title5 {
+    position: relative; /* Change position to fixed */
+    font-family: 'Magra', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #463F3A;
+    top: -30%; /* Adjust vertical position as needed */
+    transform: translateX(-65%); /* Offset by -50% of its own width */
+    width: 65%;
+    left: 75%;
+}
+.border1_circle,
+.border2_circle,
+.border3_circle{
+    position: relative;
+    width: 20%;
+    border-radius: 100%;
+    top: 12%;
+    left: 7%;
+}
+.paragraph2_frame3,
+.paragraph3_frame3,
+.paragraph4_frame3{
+    position: relative; 
+    font-family: 'Magra', sans-serif;
+    color: #463F3A;
+    top: -40%;
+    width: 50%;
+    font-size: 1.8vh;
+    left: 33%;
+
+}
+.GreyLine3{
+    position: absolute;
+    background-color:#8A817C;
+    width: 60%;
+    height: 2px;
+    border-radius: 10px;
+    top: 380%;
+    left: 20%;
+}
+
+
+
+
+/*Frame 4*/
+
+.Frame4{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    top: 390%;
+}
+.Title1_frame4{
+    position: relative;
+    font-size: 300%;
+    font-family: 'Magra', sans-serif;
+    font-weight: bold;
+    color:#463F3A ;
+    top: 0%;
+    left: 10.4%;
+}
+
+.navbar_frame4{
+    position: relative;
+    width: 60%;
+    height: 5%;
+    left: 15%;
+    top: -2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Magra', sans-serif;
+    font-size: 2.5vh;
+    color: #463F3A;
+    --hover: #845988;
+
+}
+.navbar_frame4 p.active {
+    background-color: #845988;
+    border-radius: 25px;
+    color: #F4F3EE;
+    padding: 7px 22px; /* Increase padding to make it larger */
+}
+.navbar_frame4 p {
+    position: relative;
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 25px;
+    padding: 7px 22px; /* Increase padding to make it larger */
+  }
+  
+  /* Define the hover effect for the slide */
+  .navbar_frame4 p:hover,
+  .navbar_frame4 p:focus {
+    color:#F4F3EE ;
+     box-shadow: inset 10em 0 0 0 var(--hover);
+    border-radius: 25px;
+    padding: 7px 22px; /* Increase padding to make it larger */
+  }
+
+.All{
+    position: absolute;
+    width: 75%;
+    height: 65%;
+    left: 14%;
+   
+}
+
+.Square1_all{
+    position: relative;
+    width: 60%;
+    height: 50%;
+    background: url('/webportofolio/flappybirdprf.png') no-repeat;
+    background-size:cover; /* Adjust size to ensure the whole image fits */
+    background-position: center; /* Center the image within the container */
+}
+.Square2_all{
+    position: relative;
+    width: 39%;
+    height: 50%;
+    left: 61%;
+    top: -50%;
+    background: url('/webportofolio/proiecttrencrop.png') no-repeat;
+    background-size:cover; /* Adjust size to ensure the whole image fits */
+    background-position: center; /* Center the image within the container */
+}
+.Square3_all,
+.Square4_all{
+    position: relative;
+    width: 29.2%;
+    height: 48%;
+    
+}
+.Square3_all{
+    top: -48%;
+    background: url('/webportofolio/sitewebproiect.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+.Square4_all{
+    left: 30.6%;
+    top: -96%;
+    background: url('/webportofolio/siteeu.png') no-repeat;
+    background-size:cover;
+    background-position: center; 
+}
+.Square5_all{
+    position: relative;
+    width: 39%;
+    height: 50%;
+    left: 61%;
+    top: -145%;
+    background: url('/webportofolio/sitenou1.png') no-repeat;
+    background-size:cover;
+    background-position: center; 
+}
+
+
+.Gamedevelopment{
+    position: absolute;
+    width: 75%;
+    height: 65%;
+    left: 14%;
+   
+}
+
+.Square1_gamedevelopment{
+    position: relative;
+    width: 60%;
+    height: 50%;
+    background: url('/webportofolio/flappybirdprf.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+.Square2_gamedevelopment,
+.Square3_gamedevelopment{
+    position: relative;
+    width: 29.2%;
+    height: 48%;
+    
+}
+.Square2_gamedevelopment{
+    top: 2%;
+    background: url('/webportofolio/characterselection.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+.Square3_gamedevelopment{
+    left: 30.6%;
+    top: -46%;
+    background-color:#D9D9D9 ;
+    background-size:cover;
+    background-position: center; 
+}
+.Description_gamedevelopment{
+    position: relative;
+    border: 5px solid #E6DAE7;
+    border-radius: 20px;
+    width: 39%;
+    height: 100%;
+    top: -146%;
+    left: 61%;
+    box-sizing: border-box; 
+    padding: 20px;
+    font-family: 'Magra', sans-serif;
+    font-size: 15px;
+    
+}
+
+
+.Webdevelopment{
+    position: absolute;
+    width: 75%;
+    height: 65%;
+    left: 14%;
+   
+}
+.Square1_webdevelopment{
+    position: relative;
+    width: 60%;
+    height: 50%;
+    background: url('/webportofolio/sitenou1.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+
+.Square2_webdevelopment,
+.Square3_webdevelopment{
+    position: relative;
+    width: 29.2%;
+    height: 48%;
+    
+}
+.Square2_webdevelopment{
+    top: 2%;
+    background: url('/webportofolio/sitewebproiect2.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+.Square3_webdevelopment{
+    left: 30.6%;
+    top: -46%;
+    background: url('/webportofolio/SITEUE2.PNG') no-repeat;
+    background-size:cover;
+    background-position: center; 
+}
+.Description_webdevelopment{
+    position: relative;
+    border: 5px solid #E6DAE7;
+    border-radius: 20px;
+    width: 39%;
+    height: 100%;
+    top: -146%;
+    left: 61%;
+    box-sizing: border-box; 
+    padding: 20px;
+    font-family: 'Magra', sans-serif;
+    font-size: 15px;
+    overflow-y: auto;
+    
+}
+
+.Cprojects{
+    position: absolute;
+    width: 75%;
+    height: 65%;
+    left: 14%;
+   
+}
+.Square1_cprojects{
+    position: relative;
+    width: 60%;
+    height: 50%;
+    background: url('/webportofolio/proiecttren.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+
+.Square2_cprojects,
+.Square3_cprojects{
+    position: relative;
+    width: 29.2%;
+    height: 48%;
+    
+}
+.Square2_cprojects{
+    top: 2%;
+    background: url('/webportofolio/proiectmic2.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+.Square3_cprojects{
+    left: 30.6%;
+    top: -46%;
+    background-color:#D9D9D9 ;
+    background-size:cover;
+    background-position: center; 
+}
+.Description_cprojects{
+    position: relative;
+    border: 5px solid #E6DAE7;
+    border-radius: 20px;
+    width: 39%;
+    height: 100%;
+    top: -146%;
+    left: 61%;
+    box-sizing: border-box; 
+    padding: 20px;
+    font-family: 'Magra', sans-serif;
+    font-size: 15px;
+    overflow-y: auto;
+    
+}
+.GreyLine4{
+    position: absolute;
+    background-color:#8A817C;
+    width: 60%;
+    height: 2px;
+    border-radius: 10px;
+    top: 100%;
+    transform: translateX(35%);
+}
+
+
+/*Frame 5*/
+
+.Frame5 {
+    position: absolute;
+    background-color: #322439;
+    width: 100%;
+    height: 70vh;
+    bottom: -4700px;
+}
+
+.Title1_frame5 {
+    position: relative;
+    color: #FFFFFF;
+    font-family: 'Magra', sans-serif;
+    font-weight: bold;
+    font-size: 6vh;
+    width: 20%;
+    left: 13%;
+    top: 17%;
+}
+
+
+.effect.effect-1 {
+    transition: all 0.2s linear 0s;
+    position: relative; /* Add this line */
+  }
+  
+  .effect.effect-1:before {
+    content: "\f0e0"; /* Unicode for the envelope icon */
+    font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    background-color: #F4F3EE;
+    transition: all 0.2s linear 0s;
+  }
+  
+  
+  /* Define the hover effect */
+  .effect.effect-1:hover {
+    text-indent: -20px;
+  }
+  
+  /* Define the hover effect for the icon */
+  .effect.effect-1:hover:before {
+    opacity: 1;
+    text-indent: 0px;
+    border-radius: 15px;
+  }
+.HireMe_frame5 {
+    position: relative;
+    background-color: #E6DAE7;
+    color: #322439;
+    width: 12%;
+    height: 80px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 80px;
+    font-family: 'Magra', sans-serif;
+    font-size: 22px;
+    left: 13%;
+    top: 12%;
+    text-decoration: none;
+
+}
+a.HireMe_frame5-link {
+    text-decoration: none; /* Remove underline from the link */
+    color: inherit; /* Use the original color */
+}
+.PhoneNumber,
+.Emailaddres,
+.Follow {
+    position: relative;
+    color: #FFFFFF;
+    font-family: 'Magra', sans-serif;
+    font-size: 23px;
+    left: -18%;
+    text-align: end;
+}
+
+.PhoneNumber {
+    top: -20%;
+}
+
+.Emailaddres {
+    top: -21%;
+}
+
+.Follow {
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+
+.Images_frame5 {
+    position: relative;
+    width: 50vh;
+    height: 70px;
+    left: 55%;
+    top: -20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+:root {
+    --github2-color: #F4F3EE;
+    --github2-hover: #150F18;
+
+}
+.github2:hover,
+.github2:focus,
+.instagram2:hover,
+.instagram2:focus,
+.linkedin2:hover,
+.linkedin2:focus,
+.facebook2:hover,
+.facebook2:focus{
+    box-shadow: 0.5em 0.5em 1em -0.2em var(--github2-hover);
+    transform: translateY(-0.25em);
+    border-color: var(--github2-hover);
+    color: var(--github2-hover);
+
+}
+
+.github2,
+.instagram2,
+.linkedin2,
+.facebook2 {
+    width: 5vh;
+    border-radius: 20%;
+}
+
+.Footer {
+    position: absolute;
+    width: 35%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-family: 'Magra', sans-serif;
+    font-size: 3vh;
+    margin-top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0%;
+}
+.link-aboutme {
+    color: #FFFFFF; 
+    text-decoration: none; 
+}
+
+.link-aboutme:hover, 
+.link-aboutme:focus { 
+    color: #150F18; 
+}
+.link-academics {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.link-academics:hover, 
+.link-academics:focus { 
+    color: #150F18;
+
+}
+
+.link-projects{
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+
+.link-projects:hover, 
+.link-projects:focus { 
+    color: #150F18; 
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1025px)
+{ /*tablet size*/
+    body {    
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        margin: 0;
+        height: auto;
+        width: 100%;
+    }
+    .header {
+
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: -80%;
+        color: #463F3A;
+        font-size: 20px;
+        margin-top: 10%;
+    }
+    .navigare{
+        position:fixed;
+        background-color: #F4F3EE;
+        width:100%;
+        height: 160px;
+        top: 0%;
+        z-index: 2;
+        left: 0%;
+
+       }  
+
+    .myicon{
+        position: fixed;
+        font-size: 24px;
+        width: 5vh; /* Set a fixed width */
+        height: 5vh; /* Set a fixed height */
+        line-height: 50px; /* Ensure the text is centered vertically */
+        text-align: center; /* Ensure the text is centered horizontally */
+        border-radius: 50%; /* Make it round */
+        top: 5%;
+        left: 4%;
+    }
+    .nav-links {
+        list-style: none;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center the nav-links horizontally */
+        font-size: 15px;
+        font-family: 'Magra', sans-serif;
+        width: 80%;
+        top:2%;
+        left:3%;
+    }
+
+    .nav-links li {
+        margin-right: 9px; /* Add right margin between each navigation item */
+      
+    }
+    .myname{
+
+        position: fixed;
+        top: 6%;
+        left: 12%;
+        font-family: 'Magra',sans-serif;
+        font-weight: bold;
+        color: #463F3A;
+        font-size: 13px;
+    
+    }
+    .personal{
+        position: fixed;
+        top: 7.5%;
+        left: 12%;
+        font-family: 'Magra',sans-serif;
+        color: #8A817C;
+        font-size: 10px;
+    }
+    .nav-links {
+        list-style: none;
+        position: fixed;
+        display: flex;
+        
+        justify-content: center; /* Center the nav-links horizontally */
+        font-size: 2vh;
+        font-family: 'Magra', sans-serif;
+        width: 100%;
+        top:5%;
+        left: -6%;
+        text-decoration: none; 
+    }
+    .nav-links li {
+        
+        margin-right: 40px;
+    }
+    .link-aboutme1 {
+        color: #463F3A; 
+        text-decoration: none; 
+        padding: 0 10px;
+    }
+    
+    .link-aboutme1:hover, 
+    .link-aboutme1:focus { 
+        color: #845988; 
+    }
+    .link-academics1 {
+        color: #463F3A;
+        text-decoration: none;
+        padding: 0 10px;
+    }
+    
+    .link-academics1:hover, 
+    .link-academics1:focus { 
+        color: #845988;
+    
+    }
+    
+    .link-projects1 {
+        color: #463F3A; 
+        text-decoration: none;
+        padding: 0 10px;
+    }
+    
+    .link-projects1:hover, 
+    .link-projects1:focus { 
+        color: #845988; 
+    
+    }
+    .link-Contact1 {
+        color: #463F3A; 
+        text-decoration: none;
+        padding: 0 10px;
+    }
+    
+    .link-Contact1:hover, 
+    .link-Contact1:focus { 
+        color: #845988; 
+    
+    }
+    .lets_talk_border{
+        width: 10%;
+        height: 2%;
+        position: fixed;
+        border-radius: 7px; /* Make it a circle */
+        border: 1.3px solid #845988; /* Set border color */
+        left: 80%;
+        top: 6%;
+        text-decoration: none;
+    }
+    .lets_talk_text{
+        position: relative;
+        font-size: 15px;
+        top: -10%;
+        left: 4.5%;
+        font-family: 'Magra', sans-serif;
+        color: #845988;
+    }
+    .sendamessage{
+        position: relative;
+        width: 13px;
+        /*height: 13px;*/ 
+        right: -5%;
+        margin-top: 8%;
+    }
+
+
+    /* body */
+/* frame 1 introduction*/
+
+.background_block1{
+    
+    position: absolute;
+    background-color: #E6DAE7;
+    width: 57%;
+    height: 400px;
+    top: 24%;
+    right: 0;
+  
+}
+.mesittindown{
+    position: absolute;
+    top: -25%;
+    width: 400px;
+    right: 65%;
+
+
+}
+.Hello_line{
+
+    position: absolute;
+    width: 35px;
+    height: 5px;
+    background-color: #845988;
+    border-radius: 20px;
+    right: 70%;
+    top: 22%;
+  
+}
+.Hello{
+    position: absolute;
+    color: #845988;
+    font-family:'Magra', sans-serif;
+    font-size: 35px;
+    right: -90px;
+    top: -22px;
+
+
+}
+.paragraph1_frame1{
+    position: absolute;
+    color: #463F3A;
+    font-family: 'Magra', sans-serif;
+    font-weight:bold;
+    top: 22%;
+    font-size: 35px;
+    right: 2.2%;
+    width: 65%;
+}
+.paragraph2_frame1{
+    position: relative;
+    top: 40%;
+    width: 65%;
+    right: -33%;
+    font-family: 'Magra', sans-serif;
+    color: #463F3A;
+}
+    .effect.effect-2 {
+        transition: all 0.2s linear 0s;
+        position: relative; /* Add this line */
+      }
+      
+      .effect.effect-2:before {
+        content: "\f0e0"; /* Unicode for the envelope icon */
+        font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+        font-size: 15px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: 0;
+        top: 0;
+        opacity: 0;
+        height: 100%;
+        width: 40px;
+        background-color: #322439;
+        transition: all 0.2s linear 0s;
+      }
+      
+      
+      /* Define the hover effect */
+      .effect.effect-2:hover {
+        text-indent: -20px;
+      }
+      
+      /* Define the hover effect for the icon */
+      .effect.effect-2:hover:before {
+        opacity: 1;
+        text-indent: 0px;
+        border-radius: 15px;
+      }
+    
+      .effect.effect-3 {
+        transition: all 0.2s linear 0s;
+        position: relative; /* Add this line */
+      }
+      
+      .effect.effect-3:before {
+        content: "\f03e"; /* Unicode for the envelope icon */
+        font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+        font-size: 15px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: 0;
+        top: 0;
+        opacity: 0;
+        height: 100%;
+        width: 40px;
+        background-color: #F4F3EE;
+        transition: all 0.2s linear 0s;
+      }
+      
+      
+      /* Define the hover effect */
+      .effect.effect-3:hover {
+        text-indent: -20px;
+      }
+      
+      /* Define the hover effect for the icon */
+      .effect.effect-3:hover:before {
+        opacity: 1;
+        text-indent: 0px;
+        border-radius: 15px;
+      }
+    
+    /*Buttons for getting cv and scrolling to the button for contact*/
+    .frame1_button1and2 {
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        position: relative;
+        top: 55%;
+        right: -33%;
+    }
+    
+    .button1,
+    .button2 {
+        width: 12vh;
+        height: 5vh;
+        border-radius: 15px;
+        font-family: 'Magra', sans-serif;
+        font-size: 2vh;
+        color: #F4F3EE;
+        text-align: center; /* Center text horizontally */
+        line-height: 5vh; /* Center text vertically */
+        color: inherit; /* Use the original color */
+        text-decoration: none;
+    }
+    
+    .button1 {
+        background-color: #845988;
+        color: #F0E1DD;
+    }
+    
+    .button2 {
+        width: calc(12vh - 0.4vh); 
+        height: calc(5vh - 0.4vh);
+        border: 2px solid #845988;
+        color: #845988;
+    
+    
+    }
+    
+/*Buttons for opening applications*/
+.Apps_buttons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute; /* Position the buttons absolutely */
+    top: 87%; /* Adjust the top position as needed */
+
+    
+}
+
+:root {
+    --Github-color: #845988;
+    --Github-hover: #845988;
+
+}
+.Github:hover,
+.Github:focus,
+.Insta:hover,
+.Insta:focus,
+.Linkedin:hover,
+.Linkedin:focus,
+.Facebook:hover,
+.Facebook:focus{
+    box-shadow: 0.5em 0.5em 1em -0.2em var(--Github-hover);
+    transform: translateY(-0.25em);
+    border-color: var(--Github-hover);
+    color: var(--Github-hover);
+
+}
+
+.Facebook,
+.Linkedin,
+.Insta,
+.Github {
+    width: 60px;
+    height: 50px;
+    border-radius: 15px;
+    font-family: 'Magra', sans-serif;
+    font-size: 20px;
+    color: #F4F3EE;
+    text-align: center; /* Center text horizontally */
+    line-height: 55px; /* Center text vertically */
+    border-radius: 20%;
+}
+.Apps_buttons {
+    width: 50%; /* Adjust the width for smaller screens */
+    left: -50%; /* Position the buttons closer to the center */
+    transform: translateX(-50%); /* Center the buttons horizontally */
+}
+
+/*Frame 2 About me */
+
+.About_Me{
+    position: absolute;
+    font-size: 220%;
+    font-family: 'Magra', sans-serif;
+    font-weight: bold;
+    color:#463F3A ;
+    top: 67%;
+    left: 10.4%;
+  }
+  /* Squares with introduction and my photo*/
+.Purple_Square1 {
+    position: absolute;
+    background-color: #E6DAE7;
+    width: 25%;
+    height: 20%;
+    top: 79%;
+    left: 10%;
+    border-radius: 3%;
+}
+
+.Purple_Square2 {
+    position: absolute;
+    background-color: #E6DAE7;
+    width: 80%;
+    height: 80%;
+    top: 50%; /* Adjusted to 50% */
+    left: 100%; /* Adjusted to 50% */
+    transform: translate(-50%, -50%); /* Centering horizontally and vertically */
+    border-radius: 4%;
+    border: 7px solid #F4F3EE;
+}
+.My_photo2 {
+    position: absolute;
+    width: 130px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.myname2{
+    position: absolute;
+    top: 7%;
+    font-family: 'Magra', sans-serif;
+    font-weight: bold;
+    color:#463F3A ;
+    font-size: 150%;
+    left: 10%;
+    width: 50%;
+}
+.myname2_underparagraph{
+    position: absolute;
+    font-family: 'Magra', sans-serif;
+    width: 45%;
+    font-size: 100%;
+    top: 40%;
+    left: 10.5%;
+}
+/* Scrollable paragraph with keyword button*/
+
+
+.scrollable-container {
+    position: absolute;
+    width: 47%; /* Adjust width and add scrollbar width */
+    max-height: 240px; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    top: 76%; /* Adjust this value to move the text higher relative to viewport height */
+    right:2%;
+}
+
+.scrollable-paragraph {
+    width: 90%; /* Width of individual paragraphs */
+    font-family: 'Magra', sans-serif;
+    color: #000000;
+    font-size: 110%;
+    margin: 0;
+    padding: 10px;
+}
+
+.highlighted {
+    background-color: #E6DAE7;
+    border-radius: 10px;
+}
+.highlightButton {
+    font-family: 'Magra', sans-serif;
+    position: absolute;
+    top: 71%; /* Keep the vertical position */
+    right: 37%; /* Adjust the horizontal position */
+    width: 12%;
+    height: 40px;
+    font-size: 20px;
+    background-color: #845988;
+    color: #F4F3EE;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px; /* Center text vertically */
+    opacity: 1;
+    outline: 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+
+.highlightButton::after,
+.highlightButton::before {
+  top: 0;
+  left: 0;
+  display: block;
+  text-transform: uppercase;
+  background: transparent;
+  line-height: 40px;
+  position: absolute;
+  content: attr(data-back);
+  transform: translateY(-50%) rotateX(90deg);
+  transition: all 0.5s ease;
+}
+
+.highlightButton::after {
+  border: 3px solid #845988;
+  background: #F4F3EE;
+  color: #845988;
+  border-radius: 20px;
+  opacity: 0; /* Initially hidden */
+  width: 94%;
+  height: 91%;
+  font-size: 14px;
+}
+
+.highlightButton.flipped::before {
+  opacity: 0; /* Hide front when flipped */
+}
+
+.highlightButton.flipped::after {
+  opacity: 1; /* Show back when flipped */
+  transform: translateY(0) rotateX(0); /* Ensure back is visible when flipped */
+}
+
+.paragraph8_frame1{
+    position: absolute;
+    top: 104%;
+    color: #8A817C;
+    font-family: 'Magra', sans-serif;
+    font-size: 120%;
+    text-align: center;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%); 
+}
+
+
+/*Volunteering icons*/
+.Volunteering_icons{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    margin-left: 0%;
+    top:128%;
+
+}
+.button_scouts {
+    position: relative;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border: none;
+    background: url('/webportofolio/scouts.png') no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.button_acces {
+    position: relative;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border: none;
+    background: url('/webportofolio/275987697_1228260911268067_823808366275849239_n.jpg') no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.button_shakespeare {
+    position: relative;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border: none;
+    background: url('/webportofolio/shakespar.png') no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.scouts {
+    left: 17%;
+}
+.acces_oltenia{
+    left: 35%;
+}
+.Shakespeare{
+    left: 52%;
+}
+
+.moreinfo_Scouts,
+.moreinfo_Acces_Oltenia,
+.moreinfo_Shakespeare {
+    display: none;
+    position: absolute;
+    background-color: #F0E1DD;
+    width: 350px;
+    height: 450px;
+    top: -40%;
+    border-radius: 5%;
+    font-family: 'Magra', sans-serif;
+    font-size: 90%;
+    border: 20px solid #F0E1DD; /* Add border with black color and 2px width */
+    box-sizing: border-box; 
+}
+.moreinfo_Scouts{
+    left: 6.5%;
+}
+.moreinfo_Acces_Oltenia {
+    margin-left: 32%;
+}
+.moreinfo_Shakespeare {
+    left: 58.5%;
+}
+
+.visible1,
+.visible2,
+.visible3 {
+    display: block; /* or display: flex; depending on your layout */
+}
+
+
+
+
+
+
+/*Frame 3*/
+.Imagine_movbg {
+    position: absolute; /* Change position to fixed */
+    top: 157%; /* Adjust the top position */
+    left: 0%;
+    width: 100%; /* Adjust width as needed */
+    height: 700px;
+    background: url('/webportofolio/815EaMGGxQL.png') no-repeat center;
+    background-size: cover; /* Adjust background size as needed */
+}
+
+.Title1{
+    font-family: 'Magra', sans-serif;
+    position: relative;
+    background-color: #F0E1DD;
+    width: 200px;
+    height: 75px;
+    border-radius: 12px;
+    border: 4px solid #F4F3EE;
+    text-align: center;
+    line-height: 75px; 
+    font-size: 30px;
+    -webkit-text-stroke: 1.3px #463F3A;
+    color: #F4F3EE;
+    text-shadow: 3px 2px 3px #463F3A;
+    transform: translateX(-50%); 
+ 
+    top:5%;
+    left: 50%;
+
+}
+
+.Title2 {
+    font-family: 'Magra', sans-serif;
+    position: relative;
+    color: #463F3A;
+    font-size: 50px;
+    font-weight: bold;
+    top: 8%;
+    left: 50%;
+    -webkit-text-stroke: 1px #F4F3EE;
+    width: 900px;
+    transform: translateX(-50%); /* Offset by -50% of its own width */
+    text-align: center;
+ }
+.paragraph1_frame3 {
+    width: 90%;
+    font-family: 'Magra', sans-serif;
+    position: relative;
+    color: #000000;
+    font-size: 20px;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); 
+    text-align: center;
+    top: 8%;
+}
+:root {
+    --Border1-color: #F4F3EE;
+    --Border1-hover: #5A3F5C;
+    --Border2-color: #F4F3EE;
+    --Border2-hover: #5A3F5C;
+    --Border3-color: #F4F3EE;
+    --Border3-hover: #5A3F5C;
+}
+.Border1{
+    position: relative;
+    color: var(--Border1-color);
+    border-radius: 20px;
+    width: 22%;
+    height: 40%;
+    top: 20%;
+    left: 10%;
+    border: 5px solid var(--Border1-color);
+    color: var(--Border1-color);
+    transition: 0.25s;
+}
+
+.Border1:hover,
+.Border1:focus,
+.Border2:hover,
+.Border2:focus,
+.Border3:hover,
+.Border3:focus{
+    box-shadow: 0 1em 1em -0.2em var(--Border1-hover);
+    transform: translateY(-0.25em);
+    border-color: var(--Border1-hover);
+    color: var(--Border1-hover);
+
+}
+.Border2{
+    position: relative;
+    color: var(--Border2-color);
+    border-radius: 20px;
+    width: 22%;
+    height: 40%;
+    top:-21.5%;
+    left: 40%;
+    border: 5px solid var(--Border2-color);
+    color: var(--Border2-color);
+    transition: 0.25s;
+}
+
+
+.Border3{
+    position: relative;
+    color: var(--Border3-color);
+    border-radius: 20px;
+    width: 22%;
+    height: 40%;
+    top: -62.8%;
+    left: 70%;
+    border: 5px solid var(--Border3-color);
+    color: var(--Border3-color);
+    transition: 0.25s;
+}
+.Title3,
+.Title4,
+.Title5 {
+    position: relative; /* Change position to fixed */
+    font-family: 'Magra', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #463F3A;
+    top: -13%; /* Adjust vertical position as needed */
+    transform: translateX(-65%); /* Offset by -50% of its own width */
+    width: 65%;
+    left: 75%;
+}
+.border1_circle,
+.border2_circle,
+.border3_circle{
+    position: relative;
+    width: 20%;
+    border-radius: 100%;
+    top: 12%;
+    left: 7%;
+}
+.paragraph2_frame3,
+.paragraph3_frame3,
+.paragraph4_frame3{
+    position: relative; 
+    font-family: 'Magra', sans-serif;
+    color: #463F3A;
+    top: -20%;
+    width: 50%;
+    font-size: 1.2vh;
+    left: 33%;
+
+}
+/*Frame 4*/
+
+.Frame4{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    top: 230%;
+}
+.Title1_frame4{
+    position: relative;
+    font-size: 220%;
+    font-family: 'Magra', sans-serif;
+    font-weight: bold;
+    color:#463F3A ;
+    top: 0%;
+    left: 10.4%;
+}
+
+.navbar_frame4{
+    position: relative;
+    width: 70%;
+    height: 5%;
+    left: 15%;
+    top: -2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Magra', sans-serif;
+    font-size: 1.7vh;
+    color: #463F3A;
+    --hover: #845988;
+
+}
+.navbar_frame4 p.active {
+    background-color: #845988;
+    border-radius: 25px;
+    color: #F4F3EE;
+    padding: 7px 22px; /* Increase padding to make it larger */
+}
+.navbar_frame4 p {
+    position: relative;
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 25px;
+    padding: 7px 22px; /* Increase padding to make it larger */
+  }
+  
+  /* Define the hover effect for the slide */
+  .navbar_frame4 p:hover,
+  .navbar_frame4 p:focus {
+    color:#F4F3EE ;
+     box-shadow: inset 12em 0 0 0 var(--hover);
+    border-radius: 25px;
+    padding: 7px 22px; /* Increase padding to make it larger */
+  }
+
+.All{
+    position: absolute;
+    width: 75%;
+    height: 65%;
+    left: 14%;
+   
+}
+
+.Square1_all{
+    position: relative;
+    width: 60%;
+    height: 50%;
+    background: url('/webportofolio/flappybirdprf.png') no-repeat;
+    background-size:cover; /* Adjust size to ensure the whole image fits */
+    background-position: center; /* Center the image within the container */
+}
+.Square2_all{
+    position: relative;
+    width: 39%;
+    height: 50%;
+    left: 61%;
+    top: -50%;
+    background: url('/webportofolio/proiecttrencrop.png') no-repeat;
+    background-size:cover; /* Adjust size to ensure the whole image fits */
+    background-position: center; /* Center the image within the container */
+}
+.Square3_all,
+.Square4_all{
+    position: absolute;
+    width: 29.2%;
+    height: 40%;
+    
+}
+.Square3_all{
+    top: 52%;
+    background: url('/webportofolio/sitewebproiect.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+.Square4_all{
+    left: 30.6%;
+    top: 52%;
+    background: url('/webportofolio/siteeu.png') no-repeat;
+    background-size:cover;
+    background-position: center; 
+}
+.Square5_all{
+    position: absolute;
+    width: 39%;
+    height: 42%;
+    left: 61%;
+    top: 51%;
+    background: url('/webportofolio/sitenou1.png') no-repeat;
+    background-size:cover;
+    background-position: center; 
+
+}
+
+
+.Gamedevelopment{
+    position: absolute;
+    width: 75%;
+    height: 65%;
+    left: 14%;
+   
+}
+
+.Square1_gamedevelopment{
+    position: relative;
+    width: 60%;
+    height: 50%;
+    background: url('/webportofolio/flappybirdprf.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+.Square2_gamedevelopment,
+.Square3_gamedevelopment{
+    position: relative;
+    width: 29.2%;
+    height: 40%;
+    
+}
+.Square2_gamedevelopment{
+    top: 2%;
+    background: url('/webportofolio/characterselection.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+.Square3_gamedevelopment{
+    left: 30.6%;
+    top: -38%;
+    background-color:#D9D9D9 ;
+    background-size:cover;
+    background-position: center; 
+}
+.Description_gamedevelopment{
+    position: relative;
+    border: 5px solid #E6DAE7;
+    border-radius: 20px;
+    width: 39%;
+    height: 93.5%;
+    top: -131%;
+    left: 61%;
+    box-sizing: border-box; 
+    padding: 20px;
+    font-family: 'Magra', sans-serif;
+    font-size: 15px;
+    overflow-y: auto;
+}
+
+
+.Webdevelopment{
+    position: absolute;
+    width: 75%;
+    height: 65%;
+    left: 14%;
+    top: 16%;
+   
+}
+.Square1_webdevelopment{
+    position: relative;
+    width: 60%;
+    height: 50%;
+    background: url('/webportofolio/sitenou1.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+
+.Square2_webdevelopment,
+.Square3_webdevelopment{
+    position: relative;
+    width: 29.2%;
+    height: 40%;
+    
+}
+.Square2_webdevelopment{
+    top: 2%;
+    background: url('/webportofolio/sitewebproiect2.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+.Square3_webdevelopment{
+    left: 30.6%;
+    top: -39%;
+    background: url('/webportofolio/SITEUE2.PNG') no-repeat;
+    background-size:cover;
+    background-position: center; 
+}
+.Description_webdevelopment{
+    position: relative;
+    border: 5px solid #E6DAE7;
+    border-radius: 20px;
+    width: 39%;
+    height: 92%;
+    top: -130%;
+    left: 61%;
+    box-sizing: border-box; 
+    padding: 20px;
+    font-family: 'Magra', sans-serif;
+    font-size: 15px;
+    overflow-y: auto;
+    
+}
+
+.Cprojects{
+    position: absolute;
+    width: 75%;
+    height: 65%;
+    left: 14%;
+   
+}
+.Square1_cprojects{
+    position: relative;
+    width: 60%;
+    height: 50%;
+    background: url('/webportofolio/proiecttren.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+
+.Square2_cprojects,
+.Square3_cprojects{
+    position: relative;
+    width: 29.2%;
+    height: 40%;
+    
+}
+.Square2_cprojects{
+    top: 2%;
+    background: url('/webportofolio/proiectmic2.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+.Square3_cprojects{
+    left: 30.6%;
+    top: -38%;
+    background-color:#D9D9D9 ;
+    background-size:cover;
+    background-position: center; 
+}
+.Description_cprojects{
+    position: relative;
+    border: 5px solid #E6DAE7;
+    border-radius: 20px;
+    width: 39%;
+    height: 92%;
+    top: -130%;
+    left: 61%;
+    box-sizing: border-box; 
+    padding: 20px;
+    font-family: 'Magra', sans-serif;
+    font-size: 15px;
+    overflow-y: auto;
+    
+}
+/*Frame 5*/
+
+.Frame5 {
+    position: absolute;
+    background-color: #322439;
+    width: 100%;
+    height: 41vh;
+    top: 330%;
+    left: 0%;
+}
+
+.Title1_frame5 {
+    position: relative;
+    color: #FFFFFF;
+    font-family: 'Magra', sans-serif;
+    font-weight: bold;
+    font-size: 4vh;
+    width: 40%;
+    left: 12%;
+    top: 17%;
+}
+
+.effect.effect-1 {
+    transition: all 0.2s linear 0s;
+    position: relative; /* Add this line */
+  }
+  
+  .effect.effect-1:before {
+    content: "\f0e0"; /* Unicode for the envelope icon */
+    font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    background-color: #F4F3EE;
+    transition: all 0.2s linear 0s;
+  }
+  
+  
+  /* Define the hover effect */
+  .effect.effect-1:hover {
+    text-indent: -20px;
+  }
+  
+  /* Define the hover effect for the icon */
+  .effect.effect-1:hover:before {
+    opacity: 1;
+    text-indent: 0px;
+    border-radius: 15px;
+  }
+.HireMe_frame5 {
+    position: relative;
+    background-color: #E6DAE7;
+    color: #322439;
+    width: 15%;
+    height: 80px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 80px;
+    font-family: 'Magra', sans-serif;
+    font-size: 22px;
+    left: 13%;
+    top: 12%;
+    text-decoration: none;
+
+}
+a.HireMe_frame5-link {
+    text-decoration: none; /* Remove underline from the link */
+    color: inherit; /* Use the original color */
+}
+.PhoneNumber,
+.Emailaddres,
+.Follow {
+    position: relative;
+    color: #FFFFFF;
+    font-family: 'Magra', sans-serif;
+    font-size: 23px;
+    left: -10%;
+    text-align: end;
+}
+
+.PhoneNumber {
+    top: -20%;
+}
+
+.Emailaddres {
+    top: -21%;
+}
+
+.Follow {
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+
+.Images_frame5 {
+    position: relative;
+    width: 30vh;
+    height: 70px;
+    left: 50%;
+    top: -20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+:root {
+    --github2-color: #F4F3EE;
+    --github2-hover: #150F18;
+
+}
+.github2:hover,
+.github2:focus,
+.instagram2:hover,
+.instagram2:focus,
+.linkedin2:hover,
+.linkedin2:focus,
+.facebook2:hover,
+.facebook2:focus{
+    box-shadow: 0.5em 0.5em 1em -0.2em var(--github2-hover);
+    transform: translateY(-0.25em);
+    border-color: var(--github2-hover);
+    color: var(--github2-hover);
+
+}
+
+.github2,
+.instagram2,
+.linkedin2,
+.facebook2 {
+    width: 3.5vh;
+    border-radius: 20%;
+}
+
+.Footer {
+    position: absolute;
+    width: 45%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-family: 'Magra', sans-serif;
+    font-size: 2vh;
+    margin-top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+}
+.link-aboutme {
+    color: #FFFFFF; 
+    text-decoration: none; 
+}
+
+.link-aboutme:hover, 
+.link-aboutme:focus { 
+    color: #150F18; 
+}
+.link-academics {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.link-academics:hover, 
+.link-academics:focus { 
+    color: #150F18;
+
+}
+
+.link-projects{
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+
+.link-projects:hover, 
+.link-projects:focus { 
+    color: #150F18; 
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) { /*phone size*/
+    body {    
+  
+        color:#F4F3EE ;
+        background-size: cover;
+        display: flex;
+        overflow-x: hidden;
+        width: auto;
+        height: auto;
+    }
+    .header {
+
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: -80%;
+        color: #463F3A;
+        font-size: 20px;
+        margin-top: 10%;
+    }
+    .navigare{
+        position:fixed;
+        background-color: #F4F3EE;
+        width:100%;
+        height: 100px;
+        top: 0%;
+        z-index: 2;
+        left: 0%;
+
+       }  
+    .myicon{
+        position: fixed;
+        font-size: 24px;
+        width: 30px; /* Set a fixed width */
+        height: 30px; /* Set a fixed height */
+        line-height: 50px; /* Ensure the text is centered vertically */
+        text-align: center; /* Ensure the text is centered horizontally */
+        border-radius: 50%; /* Make it round */
+        top: 3%;
+        left: 5%;
+    }
+    .nav-links {
+        list-style: none;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center the nav-links horizontally */
+        font-size: 10px;
+        font-family: 'Magra', sans-serif;
+        width: 100%;
+        top:2.7%;
+        left:-10%;
+    }
+
+    .nav-links li {
+        margin-right: 9px; /* Add right margin between each navigation item */
+      
+    }
+    .myname{
+
+        position: fixed;
+        top: 3.5%;
+        left: 10%;
+        font-family: 'Magra',sans-serif;
+        font-weight: bold;
+        color: #463F3A;
+        font-size: 6px;
+    
+    }
+    .personal{
+        position: fixed;
+        top: 4.1%;
+        left: 10%;
+        font-family: 'Magra',sans-serif;
+        color: #8A817C;
+        font-size: 6px;
+    }
+    .nav-links {
+        list-style: none;
+        position: fixed;
+        display: flex;
+        
+        justify-content: center; /* Center the nav-links horizontally */
+        font-size: 1.2vh;
+        font-family: 'Magra', sans-serif;
+        width: 100%;
+        top:3%;
+        left: -25%;
+        text-decoration: none; 
+    }
+    .nav-links li {
+        
+        margin-right: 40px;
+    }
+    .link-aboutme1 {
+        color: #463F3A; 
+        text-decoration: none; 
+        padding: 0 5px;
+    }
+    
+    .link-aboutme1:hover, 
+    .link-aboutme1:focus { 
+        color: #845988; 
+    }
+    .link-academics1 {
+        color: #463F3A;
+        text-decoration: none;
+        padding: 0 5px;
+    }
+    
+    .link-academics1:hover, 
+    .link-academics1:focus { 
+        color: #845988;
+    
+    }
+    
+    .link-projects1 {
+        color: #463F3A; 
+        text-decoration: none;
+        padding: 0 5px;
+    }
+    
+    .link-projects1:hover, 
+    .link-projects1:focus { 
+        color: #845988; 
+    
+    }
+    .link-Contact1 {
+        color: #463F3A; 
+        text-decoration: none;
+        padding: 0 5px;
+    }
+    
+    .link-Contact1:hover, 
+    .link-Contact1:focus { 
+        color: #845988; 
+    
+    }
+    .lets_talk_border{
+        width: 7%;
+        height: 1%;
+        position: fixed;
+        border-radius: 7px; /* Make it a circle */
+        border: 1.3px solid #845988; /* Set border color */
+        left: 50%;
+        top: 3.5%;
+        text-decoration: none;
+    }
+    .lets_talk_text{
+        position: relative;
+        font-size: 8px;
+        left: 4.5%;
+        font-family: 'Magra', sans-serif;
+        color: #845988;
+        line-height: 1%;
+    }
+    .sendamessage{
+        font-size: 24px;
+        position: relative;
+        width: 7px;
+        height: 7px; 
+        right:-2%;
+        margin-top: 5%;
+        line-height: 1%;
+    }
+
+        /* body */
+/* frame 1 introduction*/
+
+.Frame1{
+    margin-right: 100%;
+}
+.background_block1{
+    
+    position: absolute;
+    background-color: #E6DAE7;
+    width: 55%;
+    height: 200px;
+    top: 14%;
+    right: 0;
+  
+}
+.mesittindown{
+    position: absolute;
+    top: -25%;
+    width: 200px;
+    right: 65%;
+
+}
+.Hello_line{
+
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background-color: #845988;
+    border-radius: 20px;
+    right: 70%;
+    top: 18%;
+  
+}
+.Hello{
+    position: absolute;
+    color: #845988;
+    font-family:'Magra', sans-serif;
+    font-size: 15px;
+    right: -35px;
+    top: -8px;
+}
+.paragraph1_frame1{
+    position: absolute;
+    color: #463F3A;
+    font-family: 'Magra', sans-serif;
+    font-weight:bold;
+    top: 17%;
+    font-size: 2vh;
+    right: 10%;
+    width: 60%;
+
+}
+.paragraph2_frame1{
+    position: relative;
+    top: 37%;
+    width: 70%;
+    right: -31%;
+    font-family: 'Magra', sans-serif;
+    color: #463F3A;
+    font-size: 10px;
+}
+.effect.effect-2 {
+    transition: all 0.2s linear 0s;
+    position: relative; /* Add this line */
+  }
+  
+  .effect.effect-2:before {
+    content: "\f0e0"; /* Unicode for the envelope icon */
+    font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 63px;
+    background-color: #322439;
+    transition: all 0.2s linear 0s;
+  }
+  
+  
+  /* Define the hover effect */
+  .effect.effect-2:hover {
+    text-indent: -20px;
+  }
+  
+  /* Define the hover effect for the icon */
+  .effect.effect-2:hover:before {
+    opacity: 1;
+    text-indent: 0px;
+    border-radius: 15px;
+  }
+
+  .effect.effect-3 {
+    transition: all 0.2s linear 0s;
+    position: relative; /* Add this line */
+  }
+  
+  .effect.effect-3:before {
+    content: "\f03e"; /* Unicode for the envelope icon */
+    font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 60px;
+    background-color: #F4F3EE;
+    transition: all 0.2s linear 0s;
+  }
+  
+  
+  /* Define the hover effect */
+  .effect.effect-3:hover {
+    text-indent: -20px;
+  }
+  
+  /* Define the hover effect for the icon */
+  .effect.effect-3:hover:before {
+    opacity: 1;
+    text-indent: 0px;
+    border-radius: 15px;
+  }
+
+/*Buttons for getting cv and scrolling to the button for contact*/
+.frame1_button1and2 {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    position: relative;
+    top: 35%;
+    right: -33%;
+}
+
+.button1,
+.button2 {
+    width: 10vh;
+    height: 3vh;
+    border-radius: 15px;
+    font-family: 'Magra', sans-serif;
+    font-size: 1.5vh;
+    color: #F4F3EE;
+    text-align: center; /* Center text horizontally */
+    line-height: 3vh; /* Center text vertically */
+    color: inherit; /* Use the original color */
+    text-decoration: none;
+}
+
+.button1 {
+    background-color: #845988;
+    color: #F0E1DD;
+}
+
+.button2 {
+    width: calc(10vh - 0.4vh); 
+    height: calc(3vh - 0.4vh);
+    border: 2px solid #845988;
+    color: #845988;
+
+
+}
+/*Buttons for opening applications*/
+.Apps_buttons {
+    display: flex;
+    justify-content: space-between; /* Distribute space between buttons */
+    align-items: flex-start; /* Align buttons vertically */
+    flex-direction: column; /* Stack buttons vertically */
+    position: absolute;
+    top: 6%;
+    width: auto; /* Adjust the width for smaller screens */
+    transform: translateX(-50%); /* Center the buttons horizontally */
+}
+
+:root {
+    --Github-color: #845988;
+    --Github-hover: #845988;
+
+}
+.Github:hover,
+.Github:focus,
+.Insta:hover,
+.Insta:focus,
+.Linkedin:hover,
+.Linkedin:focus,
+.Facebook:hover,
+.Facebook:focus{
+    box-shadow: 0.5em 0.5em 1em -0.2em var(--Github-hover);
+    transform: translateY(-0.25em);
+    border-color: var(--Github-hover);
+    color: var(--Github-hover);
+
+}
+
+.Facebook,
+.Linkedin,
+.Insta,
+.Github {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    font-family: 'Magra', sans-serif;
+    font-size: 20px;
+    color: #F4F3EE;
+    text-align: center; /* Center text horizontally */
+    line-height: 55px; /* Center text vertically */
+    border-radius: 20%;
+}
+.Apps_buttons {
+    width: 50%; /* Adjust the width for smaller screens */
+    left: -30%; /* Position the buttons closer to the center */
+    transform: translateX(-50%); /* Center the buttons horizontally */
+}
+
+/*Frame 2 About me */
+
+.About_Me{
+    position: absolute;
+    font-size: 150%;
+    font-family: 'Magra', sans-serif;
+    font-weight: bold;
+    color:#463F3A ;
+    top: 40%;
+    left: 10.4%;
+  }
+  .Purple_Square1 {
+    position: absolute;
+    background-color: #E6DAE7;
+    width: 50%;
+    height: 10%;
+    top: 47%;
+    left: 10%;
+    border-radius: 3%;
+}
+
+.Purple_Square2 {
+    position: absolute;
+    background-color: #E6DAE7;
+    width: 80%;
+    height: 80%;
+    top: 50%; /* Adjusted to 50% */
+    left: 120%; /* Adjusted to 50% */
+    transform: translate(-50%, -50%); /* Centering horizontally and vertically */
+    border-radius: 4%;
+    border: 4px solid #F4F3EE;
+}
+.My_photo2 {
+    position: absolute;
+    width: 65px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.myname2{
+    position: absolute;
+    top: 7%;
+    font-family: 'Magra', sans-serif;
+    font-weight: bold;
+    color:#463F3A ;
+    font-size: 1.5vh;
+    left: 10%;
+    width: 50%;
+}
+.myname2_underparagraph{
+    position: absolute;
+    font-family: 'Magra', sans-serif;
+    width: 45%;
+    font-size: 1.2vh;
+    top: 30%;
+    left: 10.5%;
+    color:#463F3A ;
+}
+/* Scrollable paragraph with keyword button*/
+
+
+.scrollable-container {
+    position: absolute;
+    width: 89%; /* Adjust width and add scrollbar width */
+    max-height: 180px; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    top: 63%; /* Adjust this value to move the text higher relative to viewport height */
+    right:2%;
+}
+
+.scrollable-paragraph {
+    width: 90%; /* Width of individual paragraphs */
+    font-family: 'Magra', sans-serif;
+    color: #000000;
+    font-size: 80%;
+    margin: 0;
+    padding: 10px;
+}
+
+.highlighted {
+    background-color: #E6DAE7;
+    border-radius: 10px;
+}
+.highlightButton {
+    font-family: 'Magra', sans-serif;
+    position: absolute;
+    top: 59%; /* Keep the vertical position */
+    right: 53%; /* Adjust the horizontal position */
+    width: 35%;
+    height: 30px;
+    font-size: 12px;
+    background-color: #845988;
+    color: #F4F3EE;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px; /* Center text vertically */
+    opacity: 1;
+    outline: 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+
+.highlightButton::after,
+.highlightButton::before {
+  top: 0;
+  left: 0;
+  display: block;
+  text-transform: uppercase;
+  background: transparent;
+  line-height: 30px;
+  position: absolute;
+  content: attr(data-back);
+  transform: translateY(-50%) rotateX(90deg);
+  transition: all 0.5s ease;
+}
+
+.highlightButton::after {
+  border: 2px solid #845988;
+  background: #F4F3EE;
+  color: #845988;
+  border-radius: 20px;
+  opacity: 0; /* Initially hidden */
+  width: 97%;
+  height: 91%;
+  font-size: 12px;
+}
+
+.highlightButton.flipped::before {
+  opacity: 0; /* Hide front when flipped */
+}
+
+.highlightButton.flipped::after {
+  opacity: 1; /* Show back when flipped */
+  transform: translateY(0) rotateX(0); /* Ensure back is visible when flipped */
+}
+
+
+.paragraph8_frame1{
+    position: absolute;
+    top: 87%;
+    color: #8A817C;
+    font-family: 'Magra', sans-serif;
+    font-size: 70%;
+    text-align: center;
+    left: 0%;
+    width: 100%;
+}
+
+
+/*Volunteering icons*/
+.Volunteering_icons{
+    position: absolute;
+    width: 2%;
+    height:100px;
+    left: 36%;
+    top:95%;
+
+}
+.button_scouts {
+    position: relative;
+    width: 10vh;
+    height: 10vh;
+    border: none;
+    background: url('/webportofolio/scouts.png') no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.button_acces {
+    position: relative;
+    width: 10vh;
+    height: 10vh;
+    border: none;
+    background: url('/webportofolio/275987697_1228260911268067_823808366275849239_n.jpg') no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.button_shakespeare {
+    position: relative;
+    width: 10vh;
+    height: 10vh;
+    border: none;
+    background: url('/webportofolio/shakespar.png') no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.scouts {
+    left: 33%;
+}
+.acces_oltenia{
+    left: 8%;
+    top: 120%;
+}
+.Shakespeare{
+    left: -15%;
+    top: 265%;
+}
+
+.moreinfo_Scouts,
+.moreinfo_Acces_Oltenia,
+.moreinfo_Shakespeare {
+    display: none;
+    position: absolute;
+    background-color: #F0E1DD;
+    width: 40vh;
+    height: 25vh;
+    top: -30%;
+    border-radius: 5%;
+    font-family: 'Magra', sans-serif;
+    color: #000000;
+    font-size: 90%;
+    border: 20px solid #F0E1DD; /* Add border with black color and 2px width */
+    box-sizing: border-box; 
+    margin-left: -1200%;
+    overflow-y: auto; /* Enable vertical scrolling */
+    left: -160%;
+}
+
+.moreinfo_Acces_Oltenia {
+    top: 185%;
+}
+.moreinfo_Shakespeare {
+    top: 400%;
+}
+
+.visible1,
+.visible2,
+.visible3 {
+    display: block; /* or display: flex; depending on your layout */
+} 
+/*Frame 3*/
+.Imagine_movbg {
+    position: absolute; /* Change position to fixed */
+    top: 177%; /* Adjust the top position */
+    left: 0%;
+    width: 100%; /* Adjust width as needed */
+    height: 700px;
+    background: url('/webportofolio/815EaMGGxQL.png') no-repeat center;
+    background-size: cover; /* Adjust background size as needed */
+}
+
+.Title1{
+    font-family: 'Magra', sans-serif;
+    position: relative;
+    background-color: #F0E1DD;
+    width: 140px;
+    height: 65px;
+    border-radius: 12px;
+    border: 4px solid #F4F3EE;
+    text-align: center;
+    line-height: 65px; 
+    font-size: 20px;
+    -webkit-text-stroke: 0.6px #463F3A;
+    color: #F4F3EE;
+    text-shadow: 3px 2px 3px #463F3A;
+    transform: translateX(-50%); 
+ 
+    top:5%;
+    left: 50%;
+
+}
+
+.Title2 {
+    font-family: 'Magra', sans-serif;
+    position: relative;
+    color: #463F3A;
+    font-size: 3.5vh;
+    font-weight: bold;
+    top: 8%;
+    left: 50%;
+    -webkit-text-stroke: 0.7px #F4F3EE;
+    width: 900px;
+    transform: translateX(-50%); /* Offset by -50% of its own width */
+    text-align: center;
+ }
+.paragraph1_frame3 {
+    width: 90%;
+    font-family: 'Magra', sans-serif;
+    position: relative;
+    color: #000000;
+    font-size: 1.8vh;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); 
+    text-align: center;
+    top: 8%;
+}
+:root {
+    --Border1-color: #F4F3EE;
+    --Border1-hover: #5A3F5C;
+    --Border2-color: #F4F3EE;
+    --Border2-hover: #5A3F5C;
+    --Border3-color: #F4F3EE;
+    --Border3-hover: #5A3F5C;
+}
+.Border1{
+    position: relative;
+    color: var(--Border1-color);
+    border-radius: 20px;
+    width: 65%;
+    height: 15%;
+    top: 10%;
+    left: 17%;
+    border: 5px solid var(--Border1-color);
+    color: var(--Border1-color);
+    transition: 0.25s;
+}
+
+.Border1:hover,
+.Border1:focus,
+.Border2:hover,
+.Border2:focus,
+.Border3:hover,
+.Border3:focus{
+    box-shadow: 0 1em 1em -0.2em var(--Border1-hover);
+    transform: translateY(-0.25em);
+    border-color: var(--Border1-hover);
+    color: var(--Border1-hover);
+
+}
+.Border2{
+    position: relative;
+    color: var(--Border2-color);
+    border-radius: 20px;
+    width: 65%;
+    height: 15%;
+    top: 13%;
+    left: 17%;
+    border: 5px solid var(--Border2-color);
+    color: var(--Border2-color);
+    transition: 0.25s;
+}
+
+
+.Border3{
+    position: relative;
+    color: var(--Border3-color);
+    border-radius: 20px;
+    width: 65%;
+    height: 15%;
+    top: 16%;
+    left: 17.5%;
+    border: 5px solid var(--Border3-color);
+    color: var(--Border3-color);
+    transition: 0.25s;
+}
+.Title3,
+.Title4,
+.Title5 {
+    position: relative; /* Change position to fixed */
+    font-family: 'Magra', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #463F3A;
+    top: -59%; /* Adjust vertical position as needed */
+    transform: translateX(-65%); /* Offset by -50% of its own width */
+    
+    width: 65%;
+    left: 75%;
+}
+.border1_circle,
+.border2_circle,
+.border3_circle{
+    position: relative;
+    width: 5.5vh;
+    border-radius: 100%;
+    top: 12%;
+    left: 7%;
+}
+.paragraph2_frame3,
+.paragraph3_frame3,
+.paragraph4_frame3{
+    position: relative; 
+    font-family: 'Magra', sans-serif;
+    color: #463F3A;
+    top: -77%;
+    width: 55%;
+    font-size: 1.2vh;
+    left: 33%;
+
+}
+/*Frame 4*/
+
+.Frame4{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    top: 265%;
+}
+.Title1_frame4{
+    position: relative;
+    font-size: 150%;
+    font-family: 'Magra', sans-serif;
+    font-weight: bold;
+    color:#463F3A ;
+    top: 0%;
+    left: 10.4%;
+}
+
+.navbar_frame4{
+    position: relative;
+    width: 80%;
+    height: 20px;
+    left: 12%;
+    top: -2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Magra', sans-serif;
+    font-size: 1.2vh;
+    color: #463F3A;
+    --hover: #845988;
+
+}
+.navbar_frame4 p.active {
+    background-color: #845988;
+    border-radius: 25px;
+    color: #F4F3EE;
+    padding: 7px 22px; /* Increase padding to make it larger */
+}
+.navbar_frame4 p {
+    position: relative;
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 25px;
+    padding: 7px 22px; /* Increase padding to make it larger */
+  }
+  
+  /* Define the hover effect for the slide */
+  .navbar_frame4 p:hover,
+  .navbar_frame4 p:focus {
+    color:#F4F3EE ;
+     box-shadow: inset 13em 0 0 0 var(--hover);
+    border-radius: 25px;
+    padding: 7px 22px; /* Increase padding to make it larger */
+  }
+
+.All{
+    position: absolute;
+    width: 75%;
+    height: 65%;
+    left: 14%;
+   
+}
+
+.Square1_all{
+    position: relative;
+    width: 60%;
+    height: 20%;
+    background: url('/webportofolio/flappybirdprf.png') no-repeat;
+    background-size:cover; /* Adjust size to ensure the whole image fits */
+    background-position: center; /* Center the image within the container */
+}
+.Square2_all{
+    position: relative;
+    width: 39%;
+    height: 20%;
+    left: 61%;
+    top: -20%;
+    background: url('/webportofolio/proiecttrencrop.png') no-repeat;
+    background-size:cover; /* Adjust size to ensure the whole image fits */
+    background-position: center; /* Center the image within the container */
+}
+.Square3_all,
+.Square4_all{
+    position: absolute;
+    width: 29.2%;
+    height: 20%;
+    
+}
+.Square3_all{
+    top: 21%;
+    background: url('/webportofolio/sitewebproiect.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+.Square4_all{
+    left: 30.6%;
+    top: 21%;
+    background: url('/webportofolio/siteeu.png') no-repeat;
+    background-size:cover;
+    background-position: center; 
+}
+.Square5_all{
+    position: absolute;
+    width: 39%;
+    height: 21%;
+    left: 61%;
+    top: 20.5%;
+    background: url('/webportofolio/sitenou1.png') no-repeat;
+    background-size:cover;
+    background-position: center; 
+}
+
+
+.Gamedevelopment{
+    position: absolute;
+    width: 75%;
+    height: 65%;
+    left: 14%;
+   
+}
+
+.Square1_gamedevelopment{
+    position: relative;
+    width: 90%;
+    height: 20%;
+    background: url('/webportofolio/flappybirdprf.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+.Square2_gamedevelopment,
+.Square3_gamedevelopment{
+    position: relative;
+    width: 44%;
+    height: 15%;
+    
+}
+.Square2_gamedevelopment{
+    top: 2%;
+    background: url('/webportofolio/characterselection.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+.Square3_gamedevelopment{
+    left: 46%;
+    top: -13%;
+    background-color:#D9D9D9 ;
+    background-size:cover;
+    background-position: center; 
+}
+.Description_gamedevelopment{
+    position: relative;
+    border: 4px solid #E6DAE7;
+    border-radius: 20px;
+    width: 90%;
+    height: 20%;
+    top: -10%;
+    left: 0%;
+    box-sizing: border-box; 
+    padding: 20px;
+    font-family: 'Magra', sans-serif;
+    font-size: 10px;
+    overflow-y: auto;
+    color: #000000;
+}
+
+
+.Webdevelopment{
+    position: absolute;
+    width: 75%;
+    height: 65%;
+    left: 14%;
+
+   
+}
+.Square1_webdevelopment{
+    position: relative;
+    width: 90%;
+    height: 20%;
+    background: url('/webportofolio/sitenou1.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+
+.Square2_webdevelopment,
+.Square3_webdevelopment{
+    position: relative;
+    width: 44%;
+    height: 15%;
+    
+}
+.Square2_webdevelopment{
+    top: 2%;
+    background: url('/webportofolio/sitewebproiect2.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+.Square3_webdevelopment{
+    left: 46%;
+    top: -13%;
+    background: url('/webportofolio/SITEUE2.PNG') no-repeat;
+    background-size:cover;
+    background-position: center; 
+}
+.Description_webdevelopment{
+    position: relative;
+    border: 4px solid #E6DAE7;
+    border-radius: 20px;
+    width: 90%;
+    height: 20%;
+    top: -10%;
+    left: 0%;
+    box-sizing: border-box; 
+    padding: 20px;
+    font-family: 'Magra', sans-serif;
+    font-size: 10px;
+    overflow-y: auto;
+    color: #000000;
+    
+}
+
+.Cprojects{
+    position: absolute;
+    width: 75%;
+    height: 65%;
+    left: 14%;
+   
+}
+.Square1_cprojects{
+    position: relative;
+    width: 90%;
+    height: 20%;
+    background: url('/webportofolio/proiecttren.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+
+.Square2_cprojects,
+.Square3_cprojects{
+    position: relative;
+    width: 44%;
+    height: 15%;
+}
+.Square2_cprojects{
+    top: 2%;
+    background: url('/webportofolio/proiectmic2.png') no-repeat;
+    background-size:cover; 
+    background-position: center; 
+}
+.Square3_cprojects{
+     left: 46%;
+    top: -13%;
+    background-color:#D9D9D9 ;
+    background-size:cover;
+    background-position: center; 
+}
+.Description_cprojects{
+    position: relative;
+    border: 4px solid #E6DAE7;
+    border-radius: 20px;
+    width: 90%;
+    height: 20%;
+    top: -10%;
+    left: 0%;
+    box-sizing: border-box; 
+    padding: 20px;
+    font-family: 'Magra', sans-serif;
+    font-size: 10px;
+    overflow-y: auto;
+    color: #000000;
+    
+}
+.Frame5 {
+    position: absolute;
+    background-color: #322439;
+    width: 100%;
+    height: 43vh;
+    top: 310%;
+    left: 0%;
+}
+
+.Title1_frame5 {
+    position: relative;
+    color: #FFFFFF;
+    font-family: 'Magra', sans-serif;
+    font-weight: bold;
+    font-size: 3vh;
+    width: 40%;
+    left: 5%;
+    top: 2%;
+}
+
+.effect.effect-1 {
+    transition: all 0.2s linear 0s;
+    position: relative; /* Add this line */
+  }
+  
+  .effect.effect-1:before {
+    content: "\f0e0"; /* Unicode for the envelope icon */
+    font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    background-color: #F4F3EE;
+    transition: all 0.2s linear 0s;
+  }
+  
+  
+  /* Define the hover effect */
+  .effect.effect-1:hover {
+    text-indent: -20px;
+  }
+  
+  /* Define the hover effect for the icon */
+  .effect.effect-1:hover:before {
+    opacity: 1;
+    text-indent: 0px;
+    border-radius: 15px;
+  }
+.HireMe_frame5 {
+    position: relative;
+    background-color: #E6DAE7;
+    color: #322439;
+    width: 20%;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Magra', sans-serif;
+    font-size: 22px;
+    left: 5%;
+    top: -2%;
+    text-decoration: none;
+
+}
+a.HireMe_frame5-link {
+    text-decoration: none; /* Remove underline from the link */
+    color: inherit; /* Use the original color */
+}
+.PhoneNumber,
+.Emailaddres,
+.Follow {
+    position: relative;
+    color: #FFFFFF;
+    font-family: 'Magra', sans-serif;
+    font-size: 15px;
+    left: -10%;
+    text-align: end;
+}
+
+.PhoneNumber {
+    top: -13%;
+}
+
+.Emailaddres {
+    top: -13%;
+}
+
+.Follow {
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+
+.Images_frame5 {
+    position: relative;
+    width: 25vh;
+    height: 70px;
+    left: 20%;
+    top: -15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+:root {
+    --github2-color: #F4F3EE;
+    --github2-hover: #150F18;
+
+}
+.github2:hover,
+.github2:focus,
+.instagram2:hover,
+.instagram2:focus,
+.linkedin2:hover,
+.linkedin2:focus,
+.facebook2:hover,
+.facebook2:focus{
+    box-shadow: 0.5em 0.5em 1em -0.2em var(--github2-hover);
+    transform: translateY(-0.25em);
+    border-color: var(--github2-hover);
+    color: var(--github2-hover);
+
+}
+
+.github2,
+.instagram2,
+.linkedin2,
+.facebook2 {
+    width: 3vh;
+    border-radius: 20%;
+}
+
+.Footer {
+    position: absolute;
+    width: 80%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-family: 'Magra', sans-serif;
+    font-size: 2vh;
+    margin-top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+}
+.link-aboutme {
+    color: #FFFFFF; 
+    text-decoration: none; 
+}
+
+.link-aboutme:hover, 
+.link-aboutme:focus { 
+    color: #150F18; 
+}
+.link-academics {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.link-academics:hover, 
+.link-academics:focus { 
+    color: #150F18;
+
+}
+
+.link-projects{
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+
+.link-projects:hover, 
+.link-projects:focus { 
+    color: #150F18; 
+
+}
+
+
+}
+
+
+.magra-regular {
+    font-family: "Magra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .magra-bold {
+    font-family: "Magra", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+
+      
